@@ -10,6 +10,7 @@
   var SHOPEE_LINKS = {
     "premium-pomade-new": "https://shopee.com.my/PREMIUM-POMADE-by-REA-EMPIRE-(BIG)-i.1361868077.48315056081",
     "ea-premium-pomade": "https://shopee.com.my/PREMIUM-POMADE-by-REA-EMPIRE-(SMALL)-i.1361868077.29620925244",
+    "pomade-light-blue-night": "",
     "ea-premium-clay": "https://shopee.com.my/PREMIUM-CLAY-by-REA-EMPIRE-i.1361868077.27145413861",
     "ea-hair-spray": "https://shopee.com.my/PREMIUM-HAIR-SPRAY-by-REA-EMPIRE-i.1361868077.50015044345",
     "travel-hair-spray": "",
