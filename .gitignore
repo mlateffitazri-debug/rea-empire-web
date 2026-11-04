@@ -1,0 +1,13 @@
+# Local / deploy tooling
+.vercel
+.env*
+.claude
+
+# Raw source images (optimised copies live in assets/img)
+assets/originals/
+assets/REAKASIH/
+CROP/
+assets/product/
+/assets/*.png
+/assets/*.jpg
+/assets/*.jpeg
