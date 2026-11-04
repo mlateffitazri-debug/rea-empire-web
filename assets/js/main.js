@@ -15,7 +15,7 @@
     "ea-hair-spray": "https://shopee.com.my/PREMIUM-HAIR-SPRAY-by-REA-EMPIRE-i.1361868077.50015044345",
     "travel-hair-spray": "",
     "ea-shampoo":"https://shopee.com.my/EABeauty-hair-shampoo-treatment-for-men-and-women-i.1361868077.29812256380",
-    "ea-oil-treatment": "",
+    "ea-oil-treatment": "https://shopee.com.my/EABeauty-oil-for-hair-treatment-i.1361868077.29162262018",
     "ea-snow": "",
     "premium-hoodie": ""
   };
