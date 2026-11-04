@@ -85,7 +85,8 @@
   // WhatsApp "buy" links: data-product="Name|RM00.00"
   document.querySelectorAll("[data-product]").forEach(function (el) {
     var parts = el.getAttribute("data-product").split("|");
-    var msg = "Salam REA Empire, saya berminat untuk membeli " + parts[0] +
+    var msg = el.getAttribute("data-wa-text") ||
+      "Salam REA Empire, saya berminat untuk membeli " + parts[0] +
       (parts[1] ? " — " + parts[1] : "") + ". Boleh saya dapatkan maklumat lanjut?";
     el.setAttribute("href", "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg));
     el.setAttribute("target", "_blank");

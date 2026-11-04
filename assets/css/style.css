@@ -1051,3 +1051,15 @@ details[open] > summary .chev { transform: rotate(180deg); }
   font-family: var(--font-title); font-size: 13px; font-weight: 600; letter-spacing: 0.1em;
   border: 1px solid var(--gold); border-radius: 999px; color: var(--gold-light);
 }
+
+/* Photo-based product (e.g. corporate gifts): full-bleed 3:4 photo, no price, thumbnail strip */
+.product-row-media.is-photo { --pad: 0px; aspect-ratio: 3 / 4; overflow: hidden; }
+.product-row-media.is-photo img { object-fit: cover; filter: none; }
+.price-quote { font-family: var(--font-display); font-style: italic; font-size: 20px !important; letter-spacing: 0.02em; }
+.gallery.gift-thumbs { grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 22px; }
+.gallery.gift-thumbs button { aspect-ratio: 3 / 4; }
+@media (max-width: 768px) {
+  .product-row-media.is-photo { aspect-ratio: 4 / 5; }
+  .gallery.gift-thumbs { gap: 6px; margin-bottom: 16px; }
+  .gallery.gift-thumbs button { border-radius: 8px; }
+}
